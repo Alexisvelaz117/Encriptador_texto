@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */ 
+*{
+background: #0B2B40;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 2vw;
+line-height: 150%;
+}
+body{
+	
+}
+.logo{
+	padding-top: 2%;
+	margin-left: 2%;
+	width: 3%;
+}
+main{
+	display: flex;
+	margin-bottom: 5%;
+	margin-left: 8%;
+}
+::placeholder{
+	color:#F2BE22;
+	font-weight:bold;
+}
+.text-area{
+	border:none;
+	color:#F2BE22;
+	margin-left: 4%;
+	text-transform: lowercase;
+	font-size: 2.8vw;
+	font-weight:bold;
+}
+.text-area:focus{
+	outline:none;
+}
+.section_1{
+	margin-left: 4%;
+}
+.rectangulo{
+	display: inline;
+	position:absolute;
+	margin-left: 5%;
+	border-radius: 2.4%;
+	fill:#078FA5;
+}	
+.mensaje{
+	background: #078FA5;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 2.4%;
+	margin-left: 7.5%;
+	margin-top: 0px;
+	padding-left: 2%;
+	position: absolute;
+	font-size: 2.8vw;
+	font-weight:bold;
+	color:white;
+	z-index: 1;
+}
+.robot{
+	margin:4% 0 0 38%;
+	width: 40%;
+	z-index: 1;
+	display:inline;
+	background:none;
+	position:relative;
+}
+.mensaje:focus{
+	outline: none;
+
+}
+
+.botones{
+	display: flex;
+	margin-top: 1.8%;
+}
+.boton_copiar{
+	background: none;
+	position: absolute;
+	top:84%;
+	left: 73%;
+	z-index: 2;
+}
+.Encriptar{
+	background-color: none;
+	border: 1px solid #30A5BF;
+	border-radius: 25px;
+	color: white;
+	cursor:position;
+	height: 6.7%;
+	width: 32.8%;
+	font-weight: bold;
+}
+.Desencriptar{
+	border: 1px solid #30A5BF;
+	border-radius: 24px;
+	color: white;
+	cursor:position;
+	height: 6.7%;
+	width: 32.8%;
+	margin-left: 24%;
+	font-weight: bold;
+}
+.copiar{	
+	background: none;
+	border: 3px solid #0B2B40;
+	border-radius: 24px;
+	color: white;
+	cursor: pointer;
+	height: 6.7%;
+	width: 140%;
+	font-weight: bold;
+	z-index: 1;
+}
+.informacion{
+	color:white;
+	font-size: 1.3vw;
+	margin-left: 4%;
+}
+.texto_1{
+	margin: 0% 0 0 25%;
+	fill:none;
+	color:white;
+	z-index:1;
+	text-align:center;
+	width: 70%;
+	display:block;
+	background:none;
+	position:relative;
+}
+.texto_2{
+	margin: 0 0 0 10%;
+	fill:none;
+	color:white;
+	z-index:1;
+	text-align:center;
+	width: 100%;
+	display:block;
+	background: none;
+	position:relative;
+}
+#parrafo_1{
+	background: none;
+	line-height: 100%;
+	font-weight: bold;
+}
+#parrafo_2{
+	font-size: 1vw;
+	line-height: 120%;
+	background: none;
+	font-weight: bold;
+}
+.copiar:hover{
+	background: #0B2B40;
+}
+.copiar:active, .Encriptar:active, .Desencriptar:active{
+	background: #30A5BF;
+	
+}
